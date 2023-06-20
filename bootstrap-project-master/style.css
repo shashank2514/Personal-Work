@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+#nav-bgImg {
+    background-image: linear-gradient(rgb(41, 192, 212), rgba(65, 215, 226, 0.76)), url(./nice-building.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-stick-top-10 {
+    margin: 0 !important;
+}
+
+#toggle-color {
+    background-color: black !important;
+    border: solid black !important;
+}
+
+.content {
+    position: relative;
+}
+
+#option-i,
+#option-ii {
+    position: absolute;
+    z-index: 1;
+}
+
+#online-home-width {
+    position: relative;
+    margin: auto 5%;
+    gap: 10%;
+}
+
+.service-btn:hover {
+    background-color: rgb(5, 228, 105);
+}
+
+.horizontal-line1 {
+    margin: 2.5% 35%;
+    position: relative;
+    height: 3px;
+    background-color: rgb(6, 236, 198);
+}
+
+.hover-txt:hover {
+    color: rgb(0, 255, 179);
+}
+
+.horizontal-line0 {
+    margin: 2.5%;
+    width: 25%;
+    position: relative;
+    height: 3px;
+    background-color: white;
+}
+
+.horizontal-line2 {
+    margin: 2.5% 45%;
+    position: relative;
+    height: 3px;
+    background-color: rgb(6, 236, 198);
+}
+
+#simple-Online-width {
+    position: relative;
+    font-size: 3em !important;
+}
+
+.img-side-txt>li {
+    list-style: none;
+}
+
+.img-side-txt>li::before {
+    content: "\2022";
+    color: rgb(5, 202, 169);
+    font-weight: bold;
+    display: inline-block;
+    font-size: 2em;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.h1-txt {
+    color: rgb(23, 59, 45);
+}
+
+.complex-img {
+    background-color: rgba(167, 169, 170, 0.253);
+}
+
+.floating-div {
+    padding: 8%;
+    margin: auto -13px -15px;
+    position: sticky;
+}
+
+.learn-btn:hover {
+    background-color: aqua;
+    color: white !important;
+}
